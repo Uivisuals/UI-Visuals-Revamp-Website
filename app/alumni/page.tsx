@@ -1,5 +1,5 @@
-import Card from "./components/Card";
 import Footer from "./components/Footer";
+import MemberList from "./components/MemberList";
 import "./styles.css";
 
 export default function Alumni() {
@@ -15,15 +15,8 @@ export default function Alumni() {
         Every graduate of UI Visuals, wherever they&apos;ve landed. Reach out on
         <br></br>LinkedIn or Instagram if you&apos;d like to connect.
       </p>
-      <div className="flex flex-wrap">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+      <div className="flex flex-wrap justify-center mt-10">
+        <MemberList />
       </div>
 
       <div>

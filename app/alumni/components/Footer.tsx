@@ -5,10 +5,10 @@ export default function Footer() {
     <>
       <h1 className="text-8xl font-fraunces font-light opacity-10 mx-8 my-25">
         Leading Through Visuals.
-      </h1> 
+      </h1>
 
-      <div className="w-xs opacity-70 font-montserrat text-sm mx-8 inline-block float-left">
-        <Image src="/logo.png" alt="UI Visuals Logo" width={80} height={80}/>
+      <div className="w-xs opacity-70 font-montserrat text-sm mx-8 inline-block float-left mr-50">
+        <Image src="/logo.png" alt="UI Visuals Logo" width={80} height={80} />
         <p>
           A creative community at Herald College Kathmandu, under Herald
           Devcorps where design-minded students come together to learn, and
@@ -16,29 +16,80 @@ export default function Footer() {
         </p>
       </div>
 
-       <div className="font-montserrat text-xs inline-block ml-50 float-left">
-        <h3 className="opacity-50">Explore</h3>
-        <ul className="mt-5 text-3xs">
-          <li className="my-4"><a href="" className="hover:text-[#4BAF0A] duration-500 ease-in-out">Story</a></li>
-          <li className="my-4"><a href="" className="hover:text-[#4BAF0A] duration-500 ease-in-out">Blogs</a></li>
-          <li className="my-4"><a href="" className="hover:text-[#4BAF0A] duration-500 ease-in-out">Initiatives</a></li>
-        </ul>
-      </div>
+      <div className="flex flex-wrap">
+        <div className="font-montserrat text-xs">
+          <h3 className="opacity-50">Explore</h3>
+          <ul className="mt-5 text-3xs">
+            <li className="my-4">
+              <a
+                href=""
+                className="hover:text-[#4BAF0A] duration-500 ease-in-out"
+              >
+                Story
+              </a>
+            </li>
+            <li className="my-4">
+              <a
+                href=""
+                className="hover:text-[#4BAF0A] duration-500 ease-in-out"
+              >
+                Blogs
+              </a>
+            </li>
+            <li className="my-4">
+              <a
+                href=""
+                className="hover:text-[#4BAF0A] duration-500 ease-in-out"
+              >
+                Initiatives
+              </a>
+            </li>
+          </ul>
+        </div>
 
-      <div className="font-montserrat text-xs inline-block ml-30 float-left">
-        <h3 className="opacity-50 text-3xs">Community</h3>
-        <ul className="mt-5 ">
-          <li className="my-4"><a href="" className="hover:text-[#4BAF0A] duration-500 ease-in-out">People</a></li>
-          <li className="my-4"><a href="" className="hover:text-[#4BAF0A] duration-500 ease-in-out">Alumni</a></li>
-        </ul>
-      </div>
+        <div className="font-montserrat text-xs ml-30">
+          <h3 className="opacity-50 text-3xs">Community</h3>
+          <ul className="mt-5 ">
+            <li className="my-4">
+              <a
+                href=""
+                className="hover:text-[#4BAF0A] duration-500 ease-in-out"
+              >
+                People
+              </a>
+            </li>
+            <li className="my-4">
+              <a
+                href=""
+                className="hover:text-[#4BAF0A] duration-500 ease-in-out"
+              >
+                Alumni
+              </a>
+            </li>
+          </ul>
+        </div>
 
-      <div className="font-montserrat text-xs inline-block ml-30 float-left">
-        <h3 className="opacity-50 text-3xs">Connect</h3>
-        <ul className="mt-5 ">
-          <li className="my-4 "><a href="" className="hover:text-[#4BAF0A] duration-500 ease-in-out">Instagram</a></li>
-          <li className="my-4"><a href="" className="hover:text-[#4BAF0A] duration-500 ease-in-out">LinkedIn</a></li>
-        </ul>
+        <div className="font-montserrat text-xs ml-30">
+          <h3 className="opacity-50 text-3xs">Connect</h3>
+          <ul className="mt-5 ">
+            <li className="my-4 ">
+              <a
+                href=""
+                className="hover:text-[#4BAF0A] duration-500 ease-in-out"
+              >
+                Instagram
+              </a>
+            </li>
+            <li className="my-4">
+              <a
+                href=""
+                className="hover:text-[#4BAF0A] duration-500 ease-in-out"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="w-full my-10 justify-items-stretch inline-block">
